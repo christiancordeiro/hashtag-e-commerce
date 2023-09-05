@@ -24,5 +24,6 @@ alert("Não há pedidos salvos no histórico.");
 window.location.href = "index.html";
 return;
 }
+}
 
 renderizarHistoricoPedidos()

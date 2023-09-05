@@ -17,13 +17,16 @@ function criarPedidoHistorico(pedidoComData) {
 }
 
 function renderizarHistoricoPedidos() {
-const historico = lerLocalStorage("historico");
+    const historico = lerLocalStorage("historico");
+    if (!historico || historico.length === 0) {
+    alert("Não há pedidos salvos no histórico.");
+    window.location.href = "index.html";
+    return;
+    }
 
-if (!historico || historico.length === 0) {
-alert("Não há pedidos salvos no histórico.");
-window.location.href = "index.html";
-return;
-}
-}
+    for (const pedidoComData of historico) {
+        criarPedidoHistorico(pedidoComData);
+        }
+    }
 
 renderizarHistoricoPedidos()

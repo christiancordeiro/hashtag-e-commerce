@@ -20,7 +20,7 @@ function renderizarHistoricoPedidos() {
     const historico = lerLocalStorage("historico");
     if (!historico || historico.length === 0) {
     alert("Não há pedidos salvos no histórico.");
-    window.location.href = "index.html";
+    window.location.href = "./index.html";
     return;
     }
 

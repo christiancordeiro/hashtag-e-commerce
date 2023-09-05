@@ -80,7 +80,7 @@ export function apagarDoLocalStorage(chave) {
 
 
 export function desenharProdutoCarrinhoSimples(idProduto, idContainerHtml, quantidadeProduto) {
-  const produto = catalogo.find(p => p.id === idProduto)
+  const produto = catalogo.find((p) => p.id === idProduto)
   const containerProdutosCarrinho = document.getElementById(idContainerHtml)
 
   const elementoArticle = document.createElement("article")

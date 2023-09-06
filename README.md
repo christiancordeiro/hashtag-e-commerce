@@ -1,6 +1,6 @@
 <h1 align="center">Magazine Hastag</h1>
 <div align="center">
-[ezgif.com-video-to-gif.webm](https://github.com/christiancordeiro/hashtag-e-commerce/assets/116993834/794e931f-c93e-4955-aae4-2559fd59ca0a)
+
 </div>
 
 <div>

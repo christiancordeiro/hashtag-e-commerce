@@ -13,3 +13,6 @@ Projeto construído no evento Hashtag Programação. Onde tive a oportunidade de
 - CSS
 - JavaScript
 - [Tailwind CSS]
+
+
+Link do projeto: https://christiancordeiro.github.io/hashtag-e-commerce/
